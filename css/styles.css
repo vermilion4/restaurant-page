@@ -109,6 +109,12 @@ img {
     .navbar-nav li {
         margin-right: 0;
     }
+    #header-text > h1{
+        font-size: 1.2em;
+    }
+     #header-subtext{
+         font-size: 0.9em;
+     }
 }
 
 @media (max-width: 376px) {
