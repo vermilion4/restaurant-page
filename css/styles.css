@@ -86,10 +86,11 @@ img {
 }
 
 .navbar-nav li:hover {
-    background-color: #000000;
+    background-color: transparent;
     padding: 20px;
     display: block;
     width: 100%;
+    border: 5px solid #61122F;
 }
 
 #delivery {
