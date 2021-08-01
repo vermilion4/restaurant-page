@@ -90,11 +90,14 @@ img {
 }
 
 .navbar-nav li:hover {
-    background-color: transparent;
+    background-color: #61122F;
     padding: 10px;
     display: block;
     width: 100%;
     border: 5px solid #61122F;
+}
+.fas:hover{
+    color: #F6B319;
 }
 
 #delivery {
@@ -103,6 +106,80 @@ img {
 .contact a{
     text-decoration: none;
 }
+#restaurant{
+    height: 650px;
+    margin-top: 10px;
+    width: 100%;
+}
+#jumbo{
+    object-fit: cover;
+    box-shadow: 0 0 50px #3f0c1f;
+    border: 2px solid #3F0C1F;
+    border-radius: 25px;
+}
+.food{
+    width: 95%;
+    height: 250px;
+    position: relative;
+}
+
+.fro{
+    object-fit: cover;
+    border: 2px solid #3f0c1f;
+}
+.row .two{
+   margin-left: auto;
+   margin-right: auto;
+}
+.row .three{
+    margin-left: auto;
+}
+
+#main-content .row{
+    margin-top: 20px;
+}
+.menu{
+    position: absolute;
+    padding: 10px;
+    bottom: 1px;
+    opacity: 0.8;
+    text-align: center;
+    background-color: #000;
+    width: 100%;
+}
+
+.food:hover {
+  box-shadow: 0 8px 16px 0 rgba(255, 255, 255, 0.9);
+}
+
+footer{
+    background-color: #222;
+    width: 100%;
+    margin-top: 70px;
+}
+footer .container{
+    padding-top: 50px;
+    padding-bottom: 20px;
+}
+
+.italics{
+    font-style: italic;
+}
+.footer-title{
+    font-size: 1.3em;
+}
+.footer-text{
+    line-height: 2.5em;
+}
+.small-text{
+    font-size: 0.8em;
+    line-height: 1.2em;
+    color: #235723;
+}
+.text-center{
+    padding-top: 30px;
+}
+
 
 
 @media (max-width: 991px) {
@@ -119,6 +196,30 @@ img {
     }
      #header-subtext{
          font-size: 0.9em;
+     }
+     .food{
+         width: 100%;
+     }
+     .row .three{
+         margin-top: 10px;
+     }
+}
+
+@media (max-width: 767px){
+     .row .two{
+         margin-top: 10px;
+     }
+     #restaurant{
+         height: 350px;
+     }
+     .row{
+         width: 70%;
+         margin-left: auto;
+         margin-right: auto;
+     }
+     footer .row{
+         width: 100%;
+         text-align: center;
      }
 }
 
